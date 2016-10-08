@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.qi.teacheronline.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:elevation="4dp"
+                android:background="@mipmap/it3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="专 业 基 础"
+                style="@style/Base.TextAppearance.AppCompat.Display1"
+                android:id="@+id/textView7" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="数学"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="编程语言"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView1"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="数据结构"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                style="@style/Base.TextAppearance.AppCompat.Display1"
+                android:text="专 业 技 术"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="网络技术"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView3"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="移动开发"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView4"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="JAVA2E"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView5"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="操作系统"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView6"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="休 闲 娱 乐"
+                style="@style/Base.TextAppearance.AppCompat.Display1"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="付之一笑"
+                android:textColor="#3F51B5"
+                android:id="@+id/textView10"
+                android:gravity="center"
+                android:elevation="3dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="#E8E8E8"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mytz"
+            android:icon="@drawable/mytz1"
+            android:title="我的帖子" />
+        <item
+            android:id="@+id/nav_gtz"
+            android:icon="@drawable/gtz"
+            android:title="我的收藏" />
+    </group>
+
+    <item android:title="设置">
+        <menu>
+
+            <item
+                android:id="@+id/nav_setpsword"
+                android:icon="@drawable/setxs"
+                android:title="修改密码" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="退出登录" />
+        </menu>
+    </item>
+
+</menu>

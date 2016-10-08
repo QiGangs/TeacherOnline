@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Large Text"
+        android:textSize="20dp"
+        android:textColor="#37474f"
+        android:textStyle="normal"
+    android:id="@+id/header1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/header2"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:textColor="#607d8b"
+        android:layout_marginBottom="10dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tieziheaderview"></LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
